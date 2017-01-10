@@ -10,7 +10,10 @@ def simulate():
 
   ###################################################
   ## Your code here
-
+  N=40
+  mean=5
+  std=0.1
+  observations = np.random.normal(loc= mean, scale= std, size=N)
 
   ## Your code here
   ###################################################
